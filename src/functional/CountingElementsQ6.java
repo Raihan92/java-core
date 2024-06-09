@@ -12,6 +12,6 @@ public class CountingElementsQ6 {
         Long count = words.stream()
                 .filter(word -> word.length() > 3)
                 .count();
-        System.out.println(count);
+        System.out.println("Count = " + count);
     }
 }
